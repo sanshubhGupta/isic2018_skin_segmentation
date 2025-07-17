@@ -34,9 +34,9 @@ This project performs binary segmentation of skin lesions using a U-Net architec
 ## 📊 Results
 
 ### Model Predictions
-![Prediction 0](outputs/predictions/sample_0.png)
-![Prediction 1](outputs/predictions/sample_1.png)
-![Prediction 2](outputs/predictions/sample_2.png)
+![Prediction 0](outputs/sample_0.png)
+![Prediction 1](outputs/sample_1.png)
+![Prediction 2](outputs/sample_2.png)
 
 ...
 
