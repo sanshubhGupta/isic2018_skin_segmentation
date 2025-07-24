@@ -9,7 +9,7 @@ import segmentation_models_pytorch as smp
 # Load model
 device = torch.device("cuda" if torch.cuda.is_available() else "cpu")
 model = smp.Unet("resnet34", encoder_weights=None, in_channels=3, classes=1)
-model.load_state_dict(torch.load("best_unet.pth", map_location=device))
+model.load_state_dict(torch.load("best_unet.pth", map_location=device, weights_only=False))
 model.eval().to(device)
 
 # Preprocessing
